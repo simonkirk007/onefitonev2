@@ -322,3 +322,8 @@ button.quantity__button {
 .fancybox-bg:empty {
   display: block;
 }
+.contact__fields.row {
+  margin-bottom: 5px;
+}
+
+.contact__button button.btn {border-radius: 5px;}
