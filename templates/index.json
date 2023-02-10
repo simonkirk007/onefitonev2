@@ -1,1 +1,454 @@
-{"sections":{"812a4f0c-ac4c-424a-8a1e-2843925fb107":{"type":"image-banner-html","settings":{"image":"shopify:\/\/shop_images\/mian-banner-img.png","title_1":"","title_2":"30-80% off","button_title":"SHOP NOW","button_link":"shopify:\/\/collections\/all"}},"c8790d68-7fc8-415e-8c64-88e847fd4599":{"type":"repeating-content-block","blocks":{"template--17908858192192__c8790d68-7fc8-415e-8c64-88e847fd4599-16756936595bc09478-0":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/service-ic-1.png","title":"Free Shipping","text":"<p>Free Shipping for orders over $130.<\/p>"}},"template--17908858192192__c8790d68-7fc8-415e-8c64-88e847fd4599-16756936595bc09478-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/service-ic-2.png","title":"Money Guarantee","text":"<p>Within 30 days for an exchange.<\/p>"}},"template--17908858192192__c8790d68-7fc8-415e-8c64-88e847fd4599-16756936595bc09478-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/service-ic-3.png","title":"Online Support","text":"<p>Within 30 days for an exchange<\/p>"}},"664ab27d-631f-4faf-8765-d4511d669f00":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/service-ic-4.png","title":"Flexible Payment","text":"<p>Pay with Multiple Credit Cards.<\/p>"}}},"block_order":["template--17908858192192__c8790d68-7fc8-415e-8c64-88e847fd4599-16756936595bc09478-0","template--17908858192192__c8790d68-7fc8-415e-8c64-88e847fd4599-16756936595bc09478-1","template--17908858192192__c8790d68-7fc8-415e-8c64-88e847fd4599-16756936595bc09478-2","664ab27d-631f-4faf-8765-d4511d669f00"],"settings":{}},"8e102c2d-d773-40b7-9334-ec224cf037a8":{"type":"categories-repeater-block","blocks":{"template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-0":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/cat-img-4_45020e19-8734-4ab5-a578-49e174f3fd4e.png","title":"Men Clothes","button_link":"shopify:\/\/collections\/men-clothes"}},"template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/2efvpyjz-removebg-preview.png","title":"Accessories","button_link":"shopify:\/\/collections\/shoes-accessories"}},"template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/cat-img-3_466b0cd8-c3da-420d-a5bf-b89a7fabb2e2.png","title":"Shoes","button_link":"shopify:\/\/collections\/shoes"}},"3a73788a-6ca1-4d74-beec-40f42d2264a9":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/mans-suit-realistic-composition-with-smart-costume-with-white-shirt-tie-jacket_1284-54345-removebg-preview.png","title":"Mens Suit","button_link":"shopify:\/\/collections\/men-suit"}},"eaf70f1a-3ae4-41ad-aec8-9fc38c7c71f1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/cat-img-5_700781bc-5b3e-42ce-b225-e2d12736b8d5.png","title":"Women Bag","button_link":"shopify:\/\/collections\/women-coachs"}},"0cfb95ca-5cdb-42f0-bafe-a2f5e6b15cf6":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/cat-img-1_28b58606-f616-485c-8013-e8aa3fd2c003.png","title":"Dresses","button_link":"shopify:\/\/collections\/women-dresses"}},"0af8cdbf-a979-4df9-8b96-ebb665bed6b3":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/26317-removebg-preview.png","title":"Women","button_link":"shopify:\/\/collections\/women-clothes"}},"0d00b47b-4d73-49bc-a9cf-5d44b1ac7454":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/accessory-fashion-shopping-woman-purse_1203-6480-removebg-preview.png","title":"Women Wallet","button_link":"shopify:\/\/collections\/wallet"}},"c953de05-5cca-413c-b2ea-8818f4307503":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/cat-img-7_ee6b9e52-8e70-4cd5-b7fb-cf9ad0d6b1a5.png","title":"Tops","button_link":"shopify:\/\/collections\/tops"}},"23dfca4e-c3de-4e91-93a5-309bf5f3749f":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/close-up-tie-isolated-premium-psd_565145-13-removebg-preview.png","title":"Active Wear","button_link":"shopify:\/\/collections\/activewear"}},"23660971-0a18-4625-9cbd-084b8fb55bb5":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/purse_1284-658-removebg-preview.png","title":"Men's Wallet","button_link":"shopify:\/\/collections\/mens-wallet"}},"b40c6be2-8773-4e03-86ff-20dbee1ba4b3":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/pink-sweater-front_125540-746-removebg-preview.png","title":"Tiffany's favorites","button_link":"shopify:\/\/collections\/tiffanys-favorites"}}},"block_order":["template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-0","template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-1","template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-2","3a73788a-6ca1-4d74-beec-40f42d2264a9","eaf70f1a-3ae4-41ad-aec8-9fc38c7c71f1","0cfb95ca-5cdb-42f0-bafe-a2f5e6b15cf6","0af8cdbf-a979-4df9-8b96-ebb665bed6b3","0d00b47b-4d73-49bc-a9cf-5d44b1ac7454","c953de05-5cca-413c-b2ea-8818f4307503","23dfca4e-c3de-4e91-93a5-309bf5f3749f","23660971-0a18-4625-9cbd-084b8fb55bb5","b40c6be2-8773-4e03-86ff-20dbee1ba4b3"],"settings":{"title":"POPULAR CATEGORIES","button_title":"View All Categories","button_link":"shopify:\/\/collections\/all"}},"35417832-bb6e-49d3-8daf-e2c3cce033fb":{"type":"upcoming-products-custom","settings":{"title":"NEW & STYLISH LOOKS","button_text":"Shop Now","button_link":"shopify:\/\/collections\/women-dresses","image_left":"shopify:\/\/shop_images\/new-look-image-1_ba59caad-4766-414e-8522-bd6191ba5f06.png","image_right":"shopify:\/\/shop_images\/new-look-image-2_0a751b43-0564-41d9-950a-26c4136f0653.png","image_bg":"shopify:\/\/shop_images\/new-look-banner.png"}},"cf5174d5-f7e3-4f0a-a584-0fad819811d9":{"type":"custom-product-loop","settings":{"title":"LATEST PRODUCTS","button_text":"View All","button_link":"shopify:\/\/collections\/latest-products","collection":"latest-products"}},"34fd40d4-1d69-4e8c-a926-efbf7637219d":{"type":"daily-drops-custom","blocks":{"template--17908858192192__34fd40d4-1d69-4e8c-a926-efbf7637219d-16757565239112cb59-0":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/overlay-banner-1.png","title":"LAST CHANCE","content":"2 for $15","button_text":"Shop Now","button_link":"shopify:\/\/collections\/all"}},"template--17908858192192__34fd40d4-1d69-4e8c-a926-efbf7637219d-16757565239112cb59-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/overlay-banner-2_1550ac26-a3c4-4c8b-90c4-5394f35413bd.png","title":"LAST CHANCE","content":"70% off","button_text":"Shop NoW","button_link":"shopify:\/\/collections\/all"}}},"block_order":["template--17908858192192__34fd40d4-1d69-4e8c-a926-efbf7637219d-16757565239112cb59-0","template--17908858192192__34fd40d4-1d69-4e8c-a926-efbf7637219d-16757565239112cb59-1"],"settings":{"title":"DAILY DROPS"}},"ae0b246b-b0c8-4892-acbf-0d87b3a5f3b4":{"type":"outfits-banner-custom","settings":{"image":"shopify:\/\/shop_images\/sale-banner-img.png","title_main":"OUTFITS FOR ANY OCCASION","title":"It’s Party Time","content":"Upto 40% Off","button_text":"shop Now","button_link":"shopify:\/\/collections\/latest-products"}},"b4ac94ab-37ba-403d-be7b-dd116a9591f5":{"type":"custom-product-loop","settings":{"title":"FEATURED PRODUCTS","button_text":"View All","button_link":"shopify:\/\/collections\/featured-products","collection":"featured-products"}},"2173a0ea-80bf-4ec5-871e-b7ca0f3e0533":{"type":"banner-about-custom","settings":{"image_bg":"shopify:\/\/shop_images\/content-banner-back.png","image":"shopify:\/\/shop_images\/content-banner-img.png","title_main":"QUALITY DENIM","title":"COLLECTIONS","content":"Our trendy and unique denim collections give a sharp look to your daily outfits. Made from premium material, each one of our articles is built for style and durability.","button_text":"SHOP NOW","button_link":"shopify:\/\/collections\/women-clothes"}},"8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb":{"type":"reviews-custom","blocks":{"template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-0":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/person-img-1.png","title":"Blanca Hines","content":"My busy daily routine needs new outfits regularly, so anytime I’m feeling short on clothes my first stop is Tiffany's Specialties. I never close their site without multiple purchases going through!!"}},"template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/person-img-2.png","title":"Elsa Schmidt","content":"I’m always worrying about what to gift my friends, luckily Tiffany's Specialties is always full of variety and options for me to choose from even if I need different types of gifts"}},"template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/person-img-3.png","title":"Misty Abbott","content":"Tiffany's Specialties literally has the best collections every time I browse their site. Whenever I need to assemble an outfit for any occasion I know that I can count on their collection to have something for me!"}},"97d8342a-cb22-4077-8ed4-d03eb4690186":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/person-img-1.png","title":"Sonia Burke","content":"Their clothing is so stylish and affordable, and the best part is I feel empowered looking the best I can in each of their collections!"}},"c076efdf-a090-44e1-9267-55a6f3516729":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/person-img-2.png","title":"Jesse Taylor","content":"I regularly wear a complete outfit from Tiffany's Specialties activewear collection for my daily morning jogs and exercise routine, and I can happily say that their comfort level is beyond compare!"}},"dc8c6012-1a61-4194-a01e-39282a915f70":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/person-img-3.png","title":"Van Brown","content":"Any time I need a gift for the women in my life, I know that this store will have the best fit for them. My mother absolutely loves Tiffany's Specialties handbags and my daughter is regularly browsing their clothing collections!"}},"8bed2754-f48a-4f66-bed0-119994d725d7":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/person-img-1.png","title":"Olivia Carr","content":"Tiffany's Specialties truly is the brand that anyone fits! I can never find something according to my tastes on other brands but Tiffany's Specialties is a true savior"}},"3af25816-28a6-4cd0-8284-b3d549b3b643":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/person-img-2.png","title":"Stephanie Conner","content":"Me and my daughters always hit up their website when we feel the need to go on a shopping spree, their quality never disappoints!!"}},"230e8b69-a8a5-46c1-8bc8-18f12f91f212":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/person-img-3.png","title":"Freda Murray","content":"I am pretty sure my entire collection of jewelry is made of One Fit’s products, haven’t found any other affordable brand with such gorgeous designs"}},"73792517-7ea8-462e-8aca-a92c3010ac10":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/person-img-1.png","title":"Kristy Warner","content":"After moving to a new city and a new job, I was in need of a wardrobe reset, im grateful that I found Tiffany's Specialties!"}},"5d3eeae9-034a-486d-bb76-583c0d2247ed":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/person-img-2.png","title":"Katrina Barker","content":"Accessories are a huge part of my look and my collection is full of items from Tiffany's Specialties! They’re always simple yet elegant and have such amazing quality"}},"3cec222d-bfa5-403d-9a29-f13efe9728c8":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/person-img-3.png","title":"Bobbie Reyes","content":"I have an entire collection of shoes from their brand, they fit any occasion, whether I have to go to work, do my exercise or go to a fancy event!!"}}},"block_order":["template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-0","template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-1","template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-2","97d8342a-cb22-4077-8ed4-d03eb4690186","c076efdf-a090-44e1-9267-55a6f3516729","dc8c6012-1a61-4194-a01e-39282a915f70","8bed2754-f48a-4f66-bed0-119994d725d7","3af25816-28a6-4cd0-8284-b3d549b3b643","230e8b69-a8a5-46c1-8bc8-18f12f91f212","73792517-7ea8-462e-8aca-a92c3010ac10","5d3eeae9-034a-486d-bb76-583c0d2247ed","3cec222d-bfa5-403d-9a29-f13efe9728c8"],"settings":{"title":"REVIEWS FROM OUR CHERISHED CUSTOMERS"}},"be1532cf-adb1-4769-a124-bee2f7d1a78d":{"type":"gallery-custom","blocks":{"template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-0":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/gal-img-1.png"}},"template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/gal-img-2.png"}},"template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/gal-img-3.png"}},"00a19025-3f99-451e-816e-dc9f91271fb4":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/gal-img-4.png"}},"4827d279-49cd-41f0-9162-958ef906081a":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/gal-img-5.png"}},"2b76f4d7-5f02-44bb-87e1-97bc1c0edffb":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/gal-img-6.png"}},"78c615ca-d96c-431a-a12b-c06d8b8c8459":{"type":"column","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/national-kidney-foundation-inc-logo-vector-removebg-preview.png"}}},"block_order":["template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-0","template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-1","template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-2","00a19025-3f99-451e-816e-dc9f91271fb4","4827d279-49cd-41f0-9162-958ef906081a","2b76f4d7-5f02-44bb-87e1-97bc1c0edffb","78c615ca-d96c-431a-a12b-c06d8b8c8459"],"settings":{"title":"OUTFIT GALLERY"}}},"order":["812a4f0c-ac4c-424a-8a1e-2843925fb107","c8790d68-7fc8-415e-8c64-88e847fd4599","8e102c2d-d773-40b7-9334-ec224cf037a8","35417832-bb6e-49d3-8daf-e2c3cce033fb","cf5174d5-f7e3-4f0a-a584-0fad819811d9","34fd40d4-1d69-4e8c-a926-efbf7637219d","ae0b246b-b0c8-4892-acbf-0d87b3a5f3b4","b4ac94ab-37ba-403d-be7b-dd116a9591f5","2173a0ea-80bf-4ec5-871e-b7ca0f3e0533","8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb","be1532cf-adb1-4769-a124-bee2f7d1a78d"]}
+{
+  "sections": {
+    "812a4f0c-ac4c-424a-8a1e-2843925fb107": {
+      "type": "image-banner-html",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mian-banner-img.png",
+        "title_1": "",
+        "title_2": "30-80% off",
+        "button_title": "SHOP NOW",
+        "button_link": "shopify:\/\/collections\/all"
+      }
+    },
+    "c8790d68-7fc8-415e-8c64-88e847fd4599": {
+      "type": "repeating-content-block",
+      "blocks": {
+        "template--17908858192192__c8790d68-7fc8-415e-8c64-88e847fd4599-16756936595bc09478-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-ic-1.png",
+            "title": "Free Shipping",
+            "text": "<p>Free Shipping for orders over $130.<\/p>"
+          }
+        },
+        "template--17908858192192__c8790d68-7fc8-415e-8c64-88e847fd4599-16756936595bc09478-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-ic-2.png",
+            "title": "Money Guarantee",
+            "text": "<p>Within 30 days for an exchange.<\/p>"
+          }
+        },
+        "template--17908858192192__c8790d68-7fc8-415e-8c64-88e847fd4599-16756936595bc09478-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-ic-3.png",
+            "title": "Online Support",
+            "text": "<p>Within 30 days for an exchange<\/p>"
+          }
+        },
+        "664ab27d-631f-4faf-8765-d4511d669f00": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-ic-4.png",
+            "title": "Flexible Payment",
+            "text": "<p>Pay with Multiple Credit Cards.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17908858192192__c8790d68-7fc8-415e-8c64-88e847fd4599-16756936595bc09478-0",
+        "template--17908858192192__c8790d68-7fc8-415e-8c64-88e847fd4599-16756936595bc09478-1",
+        "template--17908858192192__c8790d68-7fc8-415e-8c64-88e847fd4599-16756936595bc09478-2",
+        "664ab27d-631f-4faf-8765-d4511d669f00"
+      ],
+      "settings": {
+      }
+    },
+    "8e102c2d-d773-40b7-9334-ec224cf037a8": {
+      "type": "categories-repeater-block",
+      "blocks": {
+        "template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cat-img-4_45020e19-8734-4ab5-a578-49e174f3fd4e.png",
+            "title": "Men Clothes",
+            "button_link": "shopify:\/\/collections\/men-clothes"
+          }
+        },
+        "template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2efvpyjz-removebg-preview.png",
+            "title": "Accessories",
+            "button_link": "shopify:\/\/collections\/shoes-accessories"
+          }
+        },
+        "template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cat-img-3_466b0cd8-c3da-420d-a5bf-b89a7fabb2e2.png",
+            "title": "Shoes",
+            "button_link": "shopify:\/\/collections\/shoes"
+          }
+        },
+        "3a73788a-6ca1-4d74-beec-40f42d2264a9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mans-suit-realistic-composition-with-smart-costume-with-white-shirt-tie-jacket_1284-54345-removebg-preview.png",
+            "title": "Mens Suit",
+            "button_link": "shopify:\/\/collections\/men-suit"
+          }
+        },
+        "eaf70f1a-3ae4-41ad-aec8-9fc38c7c71f1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cat-img-5_700781bc-5b3e-42ce-b225-e2d12736b8d5.png",
+            "title": "Women Bag",
+            "button_link": "shopify:\/\/collections\/women-coachs"
+          }
+        },
+        "0cfb95ca-5cdb-42f0-bafe-a2f5e6b15cf6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cat-img-1_28b58606-f616-485c-8013-e8aa3fd2c003.png",
+            "title": "Dresses",
+            "button_link": "shopify:\/\/collections\/women-dresses"
+          }
+        },
+        "0af8cdbf-a979-4df9-8b96-ebb665bed6b3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/26317-removebg-preview.png",
+            "title": "Women",
+            "button_link": "shopify:\/\/collections\/women-clothes"
+          }
+        },
+        "0d00b47b-4d73-49bc-a9cf-5d44b1ac7454": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/accessory-fashion-shopping-woman-purse_1203-6480-removebg-preview.png",
+            "title": "Women Wallet",
+            "button_link": "shopify:\/\/collections\/wallet"
+          }
+        },
+        "c953de05-5cca-413c-b2ea-8818f4307503": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cat-img-7_ee6b9e52-8e70-4cd5-b7fb-cf9ad0d6b1a5.png",
+            "title": "Tops",
+            "button_link": "shopify:\/\/collections\/tops"
+          }
+        },
+        "23dfca4e-c3de-4e91-93a5-309bf5f3749f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/close-up-tie-isolated-premium-psd_565145-13-removebg-preview.png",
+            "title": "Active Wear",
+            "button_link": "shopify:\/\/collections\/activewear"
+          }
+        },
+        "23660971-0a18-4625-9cbd-084b8fb55bb5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/purse_1284-658-removebg-preview.png",
+            "title": "Men's Wallet",
+            "button_link": "shopify:\/\/collections\/mens-wallet"
+          }
+        },
+        "b40c6be2-8773-4e03-86ff-20dbee1ba4b3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pink-sweater-front_125540-746-removebg-preview.png",
+            "title": "Tiffany's favorites",
+            "button_link": "shopify:\/\/collections\/tiffanys-favorites"
+          }
+        }
+      },
+      "block_order": [
+        "template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-0",
+        "template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-1",
+        "template--17908858192192__8e102c2d-d773-40b7-9334-ec224cf037a8-16757551820a8fc856-2",
+        "3a73788a-6ca1-4d74-beec-40f42d2264a9",
+        "eaf70f1a-3ae4-41ad-aec8-9fc38c7c71f1",
+        "0cfb95ca-5cdb-42f0-bafe-a2f5e6b15cf6",
+        "0af8cdbf-a979-4df9-8b96-ebb665bed6b3",
+        "0d00b47b-4d73-49bc-a9cf-5d44b1ac7454",
+        "c953de05-5cca-413c-b2ea-8818f4307503",
+        "23dfca4e-c3de-4e91-93a5-309bf5f3749f",
+        "23660971-0a18-4625-9cbd-084b8fb55bb5",
+        "b40c6be2-8773-4e03-86ff-20dbee1ba4b3"
+      ],
+      "settings": {
+        "title": "POPULAR CATEGORIES",
+        "button_title": "View All Categories",
+        "button_link": "shopify:\/\/collections\/all"
+      }
+    },
+    "35417832-bb6e-49d3-8daf-e2c3cce033fb": {
+      "type": "upcoming-products-custom",
+      "settings": {
+        "title": "NEW & STYLISH LOOKS",
+        "button_text": "Shop Now",
+        "button_link": "shopify:\/\/collections\/women-dresses",
+        "image_left": "shopify:\/\/shop_images\/new-look-image-1_ba59caad-4766-414e-8522-bd6191ba5f06.png",
+        "image_right": "shopify:\/\/shop_images\/new-look-image-2_0a751b43-0564-41d9-950a-26c4136f0653.png",
+        "image_bg": "shopify:\/\/shop_images\/new-look-banner.png"
+      }
+    },
+    "cf5174d5-f7e3-4f0a-a584-0fad819811d9": {
+      "type": "custom-product-loop",
+      "settings": {
+        "title": "LATEST PRODUCTS",
+        "button_text": "View All",
+        "button_link": "shopify:\/\/collections\/latest-products",
+        "collection": "latest-products"
+      }
+    },
+    "34fd40d4-1d69-4e8c-a926-efbf7637219d": {
+      "type": "daily-drops-custom",
+      "blocks": {
+        "template--17908858192192__34fd40d4-1d69-4e8c-a926-efbf7637219d-16757565239112cb59-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/overlay-banner-1.png",
+            "title": "LAST CHANCE",
+            "content": "2 for $15",
+            "button_text": "Shop Now",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "template--17908858192192__34fd40d4-1d69-4e8c-a926-efbf7637219d-16757565239112cb59-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/overlay-banner-2_1550ac26-a3c4-4c8b-90c4-5394f35413bd.png",
+            "title": "LAST CHANCE",
+            "content": "70% off",
+            "button_text": "Shop NoW",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--17908858192192__34fd40d4-1d69-4e8c-a926-efbf7637219d-16757565239112cb59-0",
+        "template--17908858192192__34fd40d4-1d69-4e8c-a926-efbf7637219d-16757565239112cb59-1"
+      ],
+      "settings": {
+        "title": "DAILY DROPS"
+      }
+    },
+    "ae0b246b-b0c8-4892-acbf-0d87b3a5f3b4": {
+      "type": "outfits-banner-custom",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sale-banner-img.png",
+        "title_main": "OUTFITS FOR ANY OCCASION",
+        "title": "It’s Party Time",
+        "content": "Upto 40% Off",
+        "button_text": "shop Now",
+        "button_link": "shopify:\/\/collections\/latest-products"
+      }
+    },
+    "b4ac94ab-37ba-403d-be7b-dd116a9591f5": {
+      "type": "custom-product-loop",
+      "settings": {
+        "title": "FEATURED PRODUCTS",
+        "button_text": "View All",
+        "button_link": "shopify:\/\/collections\/featured-products",
+        "collection": "featured-products"
+      }
+    },
+    "2173a0ea-80bf-4ec5-871e-b7ca0f3e0533": {
+      "type": "banner-about-custom",
+      "settings": {
+        "image_bg": "shopify:\/\/shop_images\/content-banner-back.png",
+        "image": "shopify:\/\/shop_images\/content-banner-img.png",
+        "title_main": "QUALITY DENIM",
+        "title": "COLLECTIONS",
+        "content": "Our trendy and unique denim collections give a sharp look to your daily outfits. Made from premium material, each one of our articles is built for style and durability.",
+        "button_text": "SHOP NOW",
+        "button_link": "shopify:\/\/collections\/women-clothes"
+      }
+    },
+    "8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb": {
+      "type": "reviews-custom",
+      "blocks": {
+        "template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/person-img-1.png",
+            "title": "Blanca Hines",
+            "content": "My busy daily routine needs new outfits regularly, so anytime I’m feeling short on clothes my first stop is Tiffany's Specialties. I never close their site without multiple purchases going through!!"
+          }
+        },
+        "template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/person-img-2.png",
+            "title": "Elsa Schmidt",
+            "content": "I’m always worrying about what to gift my friends, luckily Tiffany's Specialties is always full of variety and options for me to choose from even if I need different types of gifts"
+          }
+        },
+        "template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/person-img-3.png",
+            "title": "Misty Abbott",
+            "content": "Tiffany's Specialties literally has the best collections every time I browse their site. Whenever I need to assemble an outfit for any occasion I know that I can count on their collection to have something for me!"
+          }
+        },
+        "97d8342a-cb22-4077-8ed4-d03eb4690186": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/person-img-1.png",
+            "title": "Sonia Burke",
+            "content": "Their clothing is so stylish and affordable, and the best part is I feel empowered looking the best I can in each of their collections!"
+          }
+        },
+        "c076efdf-a090-44e1-9267-55a6f3516729": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/person-img-2.png",
+            "title": "Jesse Taylor",
+            "content": "I regularly wear a complete outfit from Tiffany's Specialties activewear collection for my daily morning jogs and exercise routine, and I can happily say that their comfort level is beyond compare!"
+          }
+        },
+        "dc8c6012-1a61-4194-a01e-39282a915f70": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/person-img-3.png",
+            "title": "Van Brown",
+            "content": "Any time I need a gift for the women in my life, I know that this store will have the best fit for them. My mother absolutely loves Tiffany's Specialties handbags and my daughter is regularly browsing their clothing collections!"
+          }
+        },
+        "8bed2754-f48a-4f66-bed0-119994d725d7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/person-img-1.png",
+            "title": "Olivia Carr",
+            "content": "Tiffany's Specialties truly is the brand that anyone fits! I can never find something according to my tastes on other brands but Tiffany's Specialties is a true savior"
+          }
+        },
+        "3af25816-28a6-4cd0-8284-b3d549b3b643": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/person-img-2.png",
+            "title": "Stephanie Conner",
+            "content": "Me and my daughters always hit up their website when we feel the need to go on a shopping spree, their quality never disappoints!!"
+          }
+        },
+        "230e8b69-a8a5-46c1-8bc8-18f12f91f212": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/person-img-3.png",
+            "title": "Freda Murray",
+            "content": "I am pretty sure my entire collection of jewelry is made of One Fit’s products, haven’t found any other affordable brand with such gorgeous designs"
+          }
+        },
+        "73792517-7ea8-462e-8aca-a92c3010ac10": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/person-img-1.png",
+            "title": "Kristy Warner",
+            "content": "After moving to a new city and a new job, I was in need of a wardrobe reset, im grateful that I found Tiffany's Specialties!"
+          }
+        },
+        "5d3eeae9-034a-486d-bb76-583c0d2247ed": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/person-img-2.png",
+            "title": "Katrina Barker",
+            "content": "Accessories are a huge part of my look and my collection is full of items from Tiffany's Specialties! They’re always simple yet elegant and have such amazing quality"
+          }
+        },
+        "3cec222d-bfa5-403d-9a29-f13efe9728c8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/person-img-3.png",
+            "title": "Bobbie Reyes",
+            "content": "I have an entire collection of shoes from their brand, they fit any occasion, whether I have to go to work, do my exercise or go to a fancy event!!"
+          }
+        }
+      },
+      "block_order": [
+        "template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-0",
+        "template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-1",
+        "template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-2",
+        "97d8342a-cb22-4077-8ed4-d03eb4690186",
+        "c076efdf-a090-44e1-9267-55a6f3516729",
+        "dc8c6012-1a61-4194-a01e-39282a915f70",
+        "8bed2754-f48a-4f66-bed0-119994d725d7",
+        "3af25816-28a6-4cd0-8284-b3d549b3b643",
+        "230e8b69-a8a5-46c1-8bc8-18f12f91f212",
+        "73792517-7ea8-462e-8aca-a92c3010ac10",
+        "5d3eeae9-034a-486d-bb76-583c0d2247ed",
+        "3cec222d-bfa5-403d-9a29-f13efe9728c8"
+      ],
+      "settings": {
+        "title": "REVIEWS FROM OUR CHERISHED CUSTOMERS"
+      }
+    },
+    "be1532cf-adb1-4769-a124-bee2f7d1a78d": {
+      "type": "gallery-custom",
+      "blocks": {
+        "template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gal-img-1.png"
+          }
+        },
+        "template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gal-img-2.png"
+          }
+        },
+        "template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.png"
+          }
+        },
+        "00a19025-3f99-451e-816e-dc9f91271fb4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.png"
+          }
+        },
+        "4827d279-49cd-41f0-9162-958ef906081a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gal-img-5.png"
+          }
+        },
+        "2b76f4d7-5f02-44bb-87e1-97bc1c0edffb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gal-img-6.png"
+          }
+        },
+        "78c615ca-d96c-431a-a12b-c06d8b8c8459": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/national-kidney-foundation-inc-logo-vector-removebg-preview.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-0",
+        "template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-1",
+        "template--17908858192192__be1532cf-adb1-4769-a124-bee2f7d1a78d-1675759138078ed463-2",
+        "00a19025-3f99-451e-816e-dc9f91271fb4",
+        "4827d279-49cd-41f0-9162-958ef906081a",
+        "2b76f4d7-5f02-44bb-87e1-97bc1c0edffb",
+        "78c615ca-d96c-431a-a12b-c06d8b8c8459"
+      ],
+      "settings": {
+        "title": "OUTFIT GALLERY"
+      }
+    }
+  },
+  "order": [
+    "812a4f0c-ac4c-424a-8a1e-2843925fb107",
+    "c8790d68-7fc8-415e-8c64-88e847fd4599",
+    "8e102c2d-d773-40b7-9334-ec224cf037a8",
+    "35417832-bb6e-49d3-8daf-e2c3cce033fb",
+    "cf5174d5-f7e3-4f0a-a584-0fad819811d9",
+    "34fd40d4-1d69-4e8c-a926-efbf7637219d",
+    "ae0b246b-b0c8-4892-acbf-0d87b3a5f3b4",
+    "b4ac94ab-37ba-403d-be7b-dd116a9591f5",
+    "2173a0ea-80bf-4ec5-871e-b7ca0f3e0533",
+    "8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb",
+    "be1532cf-adb1-4769-a124-bee2f7d1a78d"
+  ]
+}
