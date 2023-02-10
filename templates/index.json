@@ -418,6 +418,7 @@
         },
         "78c615ca-d96c-431a-a12b-c06d8b8c8459": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/national-kidney-foundation-inc-logo-vector-removebg-preview_e07f08e0-4347-4443-a9bc-0e252483c2a8.png"
           }
