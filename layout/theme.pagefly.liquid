@@ -452,5 +452,5 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
     </script>
   </head>
 
-  <body class="gradient"><div class="pagefly-container">{{ content_for_layout }}</div></body>
+  <body id="{{ page_title | handleize }}" class={{ template }}{% if template == "product" %} {{ product.handle }}{% endif %}{% if template == "collection" %} {{ collection.handle }}{% endif %}"><div class="pagefly-container">{{ content_for_layout }}</div></body>
 </html>
