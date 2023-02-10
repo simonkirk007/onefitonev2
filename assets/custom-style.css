@@ -327,3 +327,6 @@ button.quantity__button {
 }
 
 .contact__button button.btn {border-radius: 5px;}
+.facets-vertical-form{
+  margin-bottom: 30px;
+}
