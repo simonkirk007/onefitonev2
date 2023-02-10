@@ -9,7 +9,6 @@ header.header {
     background: linear-gradient(0deg,#f6b3c7b5,#f6b3c7b5),rgb(246 179 199 / 0%);
     padding: 10px 0;
 }
-}
 .header-nav ul li a span {
     font-family: "Lato", sans-serif;
 }
