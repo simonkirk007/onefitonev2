@@ -223,11 +223,11 @@ header.header {
 }
 .donate-box .btn {
   background: #e83131;
-  border: 1px solid #ef5f22;
+  border: 1px solid #e83131;
 }
 
 .donate-box .btn:hover {
-  color: #ef5f22;
+  color: #e83131;
   background: transparent;
 }
 .main-banner-item {
