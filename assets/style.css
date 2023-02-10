@@ -156,8 +156,8 @@ ul {
 }
 
 .main-header {
-  border: 0.25px solid #386e9140;
-  background: linear-gradient(0deg, #f0faff, #f0faff), rgba(0, 0, 0, 0.3);
+  border: 0.25px solid #f6b3c7;
+  background: linear-gradient(0deg, #f6b3c7, #f6b3c7), rgba(0, 0, 0, 0.3);
   padding: 10px 0;
 }
 
