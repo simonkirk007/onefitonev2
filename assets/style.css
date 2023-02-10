@@ -156,9 +156,10 @@ ul {
 }
 
 .main-header {
-  border: 0.25px solid #f6b3c7;
-  background: linear-gradient(0deg, #f6b3c7, #f6b3c7), rgba(0, 0, 0, 0.3);
-  padding: 10px 0;
+    border: 0.25px solid #f6b3c7;
+    background: linear-gradient(0deg,#f6b3c7b5,#f6b3c7b5),rgb(246 179 199 / 0%);
+    padding: 10px 0;
+}
 }
 
 .top-header {
