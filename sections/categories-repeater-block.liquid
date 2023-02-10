@@ -1,0 +1,110 @@
+<section class="cat-section">
+  <div class="container">
+    <div class="title">
+      <div class="row align-items-center">
+        <div class="col-sm-6">
+          <h2>{{ section.settings.title }}</h2>
+        </div>
+        <div class="col-sm-6">
+          <a href="{{ section.settings.button_link }}" class="btn-link">{{ section.settings.button_title | escape }}</a>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center">
+
+
+
+      {%- liquid
+          assign highest_ratio = 0
+          for block in section.blocks
+            if block.settings.image.aspect_ratio > highest_ratio
+              assign highest_ratio = block.settings.image.aspect_ratio
+            endif
+          endfor
+        -%}
+      {%- for block in section.blocks -%}
+        {%- assign empty_column = '' -%}
+        {%- if block.settings.image == blank and block.settings.title == blank and block.settings.text == blank and block.settings.link_label == blank -%}
+          {%- assign empty_column = ' multicolumn-list__item--empty' -%}
+        {%- endif -%}
+
+        <div class="col-md-2">
+          <div class="cat-box">
+            <a href="{{ block.settings.button_link }}">
+              <div class="cat-img">
+                <img src="{{ block.settings.image | image_url }}" alt="">
+              </div>
+              <div class="cat-con">
+                <h3>{{ block.settings.title | escape }}</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      {%- endfor -%}
+
+    </div>
+
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Categories Repeater",
+    "class": "section",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "default": "Multicolumn",
+        "label": "t:sections.multicolumn.settings.title.label"
+      },
+      {
+        "type": "text",
+        "id": "button_title",
+        "label": "Button Title"
+      }, {
+        "type": "url",
+        "id": "button_link",
+        "label": "t:sections.multicolumn.settings.button_link.label"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "t:sections.multicolumn.blocks.column.name",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+          }, {
+            "type": "text",
+            "id": "title",
+            "default": "Column",
+            "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+          }, {
+            "type": "url",
+            "id": "button_link",
+            "label": "t:sections.multicolumn.settings.button_link.label"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Categories Repeater",
+        "blocks": [
+          {
+            "type": "column"
+          }, {
+            "type": "column"
+          }, {
+            "type": "column"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

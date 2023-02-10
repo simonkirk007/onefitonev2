@@ -1,0 +1,66 @@
+<section class="sale-banner-sec">
+  <div class="container">
+    <div class="title text-center">
+      <h2>{{ section.settings.title_main | escape }}</h2>
+    </div>
+
+  </div>
+  <div class="sale-banner" style="background-image: url({{ section.settings.image | image_url }});">
+    <div class="container">
+      <div class="sale-banner-con text-light">
+        <h2>{{ section.settings.title | escape }}</h2>
+        <h3>{{ section.settings.content | escape }}</h3>
+        <a href="{{ section.settings.button_link }}" class="btn ">{{ section.settings.button_text }}</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+{% schema %}
+  {
+    "name": "Outfits Banner Custom",
+    "class": "section",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Bg Image"
+      },
+      {
+        "type": "text",
+        "id": "title_main",
+        "default": "Multicolumn",
+        "label": "Title Top"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "default": "Multicolumn",
+        "label": "t:sections.multicolumn.settings.title.label"
+      },
+      {
+        "type": "text",
+        "id": "content",
+        "default": "Multicolumn",
+        "label": "t:sections.multicolumn.settings.title.label"
+      }, {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Label"
+      }, {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button URL"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Outfits Banner Custom"
+      }
+    ]
+  }
+{% endschema %}

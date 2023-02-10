@@ -1,0 +1,58 @@
+<section class="upcoming-products" style="background-image: url({{ section.settings.image_bg | image_url  }});">
+  <div class="upcome-pro-img">
+    <img src="{{ section.settings.image_left | image_url }}" alt="">
+  </div>
+  <div class="upcome-content">
+    <h3>{{ section.settings.title }}</h3>
+    <div class="upcome-btn">
+      <a href="{{ section.settings.button_link }}" class="btn">{{- section.settings.button_text }}</a>
+    </div>
+  </div>
+  <div class="upcome-pro-img">
+    <img src="{{ section.settings.image_right | image_url }}" alt="">
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Upcoming Custom",
+  "class": "section",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Multicolumn",
+      "label": "t:sections.multicolumn.settings.title.label"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Lable"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button URL"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_left",
+      "label": "Image Left"
+    }, {
+      "type": "image_picker",
+      "id": "image_right",
+      "label": "Image Right"
+    }, {
+      "type": "image_picker",
+      "id": "image_bg",
+      "label": "Image background"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Upcoming Custom"
+    }
+  ]
+}
+{% endschema %}

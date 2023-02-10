@@ -1,0 +1,74 @@
+<section class="testimonials-sec">
+  <div class="container">
+    <div class="title text-center">
+      <h2>{{ section.settings.title }}</h2>
+    </div>
+    <div class="row testimonial-slider">
+
+      {%- for block in section.blocks -%}
+        <div class="col-md-4">
+          <div class="testimonial-box">
+            <q>{{ block.settings.content }}</q>
+            <img src="{{ block.settings.image | image_url }}" alt="">
+            <h3>{{ block.settings.title }}</h3>
+          </div>
+        </div>
+      {%- endfor -%}
+
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Reviews Custom",
+    "class": "section",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "default": "Multicolumn",
+        "label": "t:sections.multicolumn.settings.title.label"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "t:sections.multicolumn.blocks.column.name",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }, {
+            "type": "text",
+            "id": "title",
+            "default": "Column",
+            "label": "Name"
+          }, {
+            "type": "text",
+            "id": "content",
+            "default": "Column",
+            "label": "Content"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Reviews Custom",
+        "blocks": [
+          {
+            "type": "column"
+          }, {
+            "type": "column"
+          }, {
+            "type": "column"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

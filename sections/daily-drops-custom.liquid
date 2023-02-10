@@ -1,0 +1,100 @@
+<section class="overlay-banners">
+  <div class="container">
+    <div class="title text-center">
+      <h2>{{ section.settings.title | escape }}</h2>
+    </div>
+    <div class="row ">
+
+
+
+      {%- liquid
+          assign highest_ratio = 0
+          for block in section.blocks
+            if block.settings.image.aspect_ratio > highest_ratio
+              assign highest_ratio = block.settings.image.aspect_ratio
+            endif
+          endfor
+        -%}
+      {%- for block in section.blocks -%}
+        {%- assign empty_column = '' -%}
+        {%- if block.settings.image == blank and block.settings.title == blank and block.settings.text == blank and block.settings.link_label == blank -%}
+          {%- assign empty_column = ' multicolumn-list__item--empty' -%}
+        {%- endif -%}
+
+        <div class="col-md-6">
+          <div class="overlay-banner" style="background-image: url({{ block.settings.image | image_url }});">
+            <div class="overlay-banner-con text-light">
+              <h4>{{ block.settings.title | escape }}</h4>
+              <h2>{{ block.settings.content | escape }}</h2>
+              <a href="{{ block.settings.button_link }}" class="btn">{{ block.settings.button_text }}</a>
+            </div>
+          </div>
+        </div>
+
+      {%- endfor -%}
+
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Daily Drop Custom",
+    "class": "section",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "default": "Multicolumn",
+        "label": "t:sections.multicolumn.settings.title.label"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "t:sections.multicolumn.blocks.column.name",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Bg Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "default": "Column",
+            "label": "Title"
+          },
+          {
+            "type": "text",
+            "id": "content",
+            "default": "Column",
+            "label": "Content"
+          },
+          {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button Label"
+          }, {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button URL"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Daily Drop Custom",
+        "blocks": [
+          {
+            "type": "column"
+          }, {
+            "type": "column"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

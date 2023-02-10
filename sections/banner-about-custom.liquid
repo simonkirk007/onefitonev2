@@ -1,0 +1,68 @@
+<section class="content-banner" style="background-image:url({{ section.settings.image_bg | image_url }}); ">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-5">
+        <div class="content-banner-content">
+          <h2>{{ section.settings.title_main | escape }}</h2>
+          <h3>{{ section.settings.title | escape }}</h3>
+          <p>{{ section.settings.content | escape }}</p>
+          <a href="{{ section.settings.button_link }}" class="btn">{{ section.settings.button_text }}</a>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <img src="{{ section.settings.image | image_url }}" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Banner About Custom",
+    "class": "section",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image_bg",
+        "label": "Bg Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "title_main",
+        "default": "Multicolumn",
+        "label": "Main Title"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "default": "Multicolumn",
+        "label": "Title"
+      }, {
+        "type": "text",
+        "id": "content",
+        "default": "Multicolumn",
+        "label": "Content"
+      }, {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Label"
+      }, {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button URL"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Banner About Custom"
+      }
+    ]
+  }
+{% endschema %}

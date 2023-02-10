@@ -1,0 +1,75 @@
+<section class="content-boxes py-5">
+  <div class="container">
+    <div class="row my-5 align-items-center">
+      <div class="col-md-6">
+        <div class="content-boxes-con pe-5">
+          <h2>{{ section.settings.title_1 | escape }}</h2>
+          {{ section.settings.content_1 }}
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="content-boxes-image">
+          <img src="{{ section.settings.image_1 | image_url }}" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="row flex-row-reverse my-5 align-items-center">
+      <div class="col-md-6">
+        <div class="content-boxes-con ps-5">
+
+          {{ section.settings.content_2 }}
+
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="content-boxes-image">
+          <img src="{{ section.settings.image_2 | image_url }}" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+{% schema %}
+  {
+    "name": "About Page Custom",
+    "class": "section",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title_1",
+        "default": "Multicolumn",
+        "label": "t:sections.multicolumn.settings.title.label"
+      },
+      {
+        "type": "richtext",
+        "id": "content_1",
+        "default": "<p>Talk about your brand</p>",
+        "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_1",
+        "label": "Image"
+      },
+      {
+        "type": "richtext",
+        "id": "content_2",
+        "default": "<p>Talk about your brand</p>",
+        "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+      }, {
+        "type": "image_picker",
+        "id": "image_2",
+        "label": "Image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "About Page Custom"
+      }
+    ]
+  }
+{% endschema %}

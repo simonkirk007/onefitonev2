@@ -1,0 +1,84 @@
+<section class="product-sec">
+  <div class="container">
+    <div class="title text-center">
+      <h2>
+        {{ section.settings.title | escape }}
+      </h2>
+    </div>
+    <div class="row prod-slider">
+
+      {% assign selected_collection = section.settings.collection %}
+
+      {% for product in collections[selected_collection].products %}
+        <div class="col-md-2">
+          <div class="product-box">
+            <div class="product-img">
+              <a href="{{ product.url }}">
+                <img src="{{ product.featured_image.src | img_url: 'large' }}" alt="">
+              </a>
+            </div>
+            <div class="product-con">
+              <h3>
+                <a href="{{ product.url }}" class="text-truncate w-100">{{ product.title }}</a>
+              </h3>
+              <div class="price">
+                {% if product.compare_at_price > product.price %}
+                  <span>{{ product.price | money }}</span>
+                  <del>{{ product.compare_at_price | money }}</del>
+                {% else %}
+                  <span>{{ product.price | money }}</span>
+                {% endif %}
+              </div>
+              <a href="{{ product.url }}" class="btn-link">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+
+    </div>
+    <div class="pro-btn text-center mt-5">
+      <a href="{{section.settings.button_link}}" class="btn">{{ section.settings.button_text }}</a>
+    </div>
+  </div>
+</section>
+
+
+
+{% comment %}
+<h2>{{ product.title }}</h2>
+<p>{{ product.price | money }}</p>
+<img src="{{ product.featured_image.src | img_url: 'large' }}" alt="{{ product.featured_image.alt | escape }}">
+<a href="{{ product.url }}">{{ product.title }}</a>
+{% endcomment %}{% schema %}
+  {
+    "name": "Custom Product",
+    "class": "section",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "default": "Multicolumn",
+        "label": "Title"
+      }, {
+        "type": "text",
+        "id": "button_text",
+        "default": "Multicolumn",
+        "label": "Button Label"
+      }, {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      }, {
+        "type": "collection",
+        "id": "collection",
+        "label": "t:sections.featured-collection.settings.collection.label"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Product"
+      }
+    ]
+  }
+{% endschema %}
