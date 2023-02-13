@@ -419,6 +419,13 @@ section.testimonials-sec ul.slick-dots {
 .donate-ammount {
   gap: 10px;
 }
+.grid--2-col-tablet .grid__item {
+  width: 100%;
+}
+
+.product-form__submit.button {
+  width: 100%;
+}
 }
 
 @media only screen and (min-width: 100px) and (max-width: 345px) {
