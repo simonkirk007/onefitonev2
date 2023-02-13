@@ -268,4 +268,11 @@ section.gallery {
     text-align: center;
     margin-bottom: 5px;
 }
+  section.testimonials-sec {
+    padding-bottom: 40px;
+}
+
+section.testimonials-sec ul.slick-dots {
+    bottom: -10px;
+}
 }
