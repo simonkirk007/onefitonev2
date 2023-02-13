@@ -199,4 +199,7 @@ section.gallery {
 .header__heading-logo {
     max-width: 150px;
 }
+  .header-menu-btn a i {
+    font-size: 25px;
+}
 }
