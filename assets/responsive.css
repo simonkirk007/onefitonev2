@@ -291,6 +291,20 @@ section.testimonials-sec ul.slick-dots {
 .donate-con {
   margin-top: 30px;
 }
+.side-bar-custom ul {
+  display: none;
+}
+
+.side-bar-custom h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.side-bar-custom h3 i {
+  display: block;
+  font-size: 26px;
+}
 }
 @media only screen and (min-width: 100px) and (max-width: 576px) {
   .donate-box img {

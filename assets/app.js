@@ -13,6 +13,11 @@ $(".search a").click(function () {
 $(".search-close-ic a").click(function () {
   $(".search-bar").removeClass("active");
 });
+$('.side-bar-custom h3').append('<i class="fas fa-chevron-down"></i>');
+
+$('.side-bar-custom h3 i').click(function(){
+  $('.side-bar-custom ul').slideToggle();
+});
 
 $(".prod-slider").slick({
   dots: false,

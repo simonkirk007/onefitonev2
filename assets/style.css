@@ -1632,3 +1632,6 @@ button.paypal {
     left: 0;
   
 }
+.side-bar-custom h3 i {
+  display: none;
+}
