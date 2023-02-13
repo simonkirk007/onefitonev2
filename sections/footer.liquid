@@ -31,7 +31,7 @@
         <div class="footer__blocks-wrapper"><div class="row">
           
             {%- for block in section.blocks -%}
-              <div class="footer-block{% if block.type == 'link_list' %} footer-block--menu col-12 col-lg-2 col-6{% else %} col-12 col-lg-4{% endif %}" {{ block.shopify_attributes }}>
+              <div class="footer-block{% if block.type == 'link_list' %} footer-block--menu col-12-- col-lg-2 col-6{% else %} col-12 col-lg-4{% endif %}" {{ block.shopify_attributes }}>
                 {%- if block.settings.heading != blank -%}
                   <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
                 {%- endif -%}
