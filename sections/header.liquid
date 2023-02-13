@@ -440,7 +440,10 @@
           {%- if section.settings.menu_type_desktop == 'dropdown' -%}
           
             <div class="col-md-4 col-4">
-              <nav class="header__inline-menu header-nav">
+            <div class="header-menu-btn d-block d-md-none">
+            <a href="javascript:;" class="openbtn"><i class="fas fa-bars"></i></a>
+            </div>
+              <nav class="header__inline-menu header-nav d-none d-md-block">
                 <ul class="list-menu list-menu--inline" role="list">
                   {%- for link in section.settings.menu.links -%}
                     <li>
