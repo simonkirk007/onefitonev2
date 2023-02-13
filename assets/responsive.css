@@ -183,3 +183,8 @@ section.gallery {
     align-items: center !important;
 }
 }
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+  .botton-header {
+    display: none;
+}
+}
