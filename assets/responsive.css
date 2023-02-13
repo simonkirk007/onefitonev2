@@ -185,6 +185,9 @@ section.gallery {
 .contact-img {
   display: none;
 }
+.grid--2-col-tablet .grid__item {
+  width: 49%;
+}
 }
 @media only screen and (min-width: 100px) and (max-width: 768px) {
   .botton-header {

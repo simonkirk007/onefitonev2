@@ -1635,3 +1635,6 @@ button.paypal {
 .side-bar-custom h3 i {
   display: none;
 }
+.side-bar-custom ul {
+  display: block;
+}
