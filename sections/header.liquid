@@ -334,8 +334,7 @@
       <div class="row align-items-center">
       
       
-      
-        
+           
         {%- if section.settings.logo_position == 'top-center' or section.settings.menu == blank -%}
           <details-modal class="header__search">
             <details>
@@ -646,11 +645,10 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
 
         <div class="overlay-content">
-            <div class="responsive-logo">
-                <a href="index.php"><img src="assets/images/footer-logo.png" alt=""></a>
-            </div>
+          
             <ul>
-                <li><a href="index.php">Home </a></li>
+                
+                 
                 <li><a href="shop.php">Shop </a></li>
                 <li><a href="mushroom101.php">Mushroom 101 </a></li>
                 <li><a href="about.php">About Us </a></li>
@@ -667,6 +665,7 @@
 {%- endif -%}
 
 {% javascript %}
+  
   class StickyHeader extends HTMLElement {
     constructor() {
       super();
