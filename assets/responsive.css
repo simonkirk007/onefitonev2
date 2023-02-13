@@ -348,4 +348,20 @@ section.testimonials-sec ul.slick-dots {
 .top-header .header-icons ul li a {
   padding: 0 3px;
 }
+
+.cat-img img {
+  width: 60px;
+}
+
+.cat-con h3 {
+  font-size: 12px;
+}
+
+.cat-box {
+  padding: 0;
+}
+
+.cat-img {
+  min-height: 110px;
+}
 }
