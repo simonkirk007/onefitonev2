@@ -28,9 +28,9 @@ $(".prod-slider").slick({
   slidesToScroll: 1,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1200,
       settings: {
-        slidesToShow: 6,
+        slidesToShow: 5,
         slidesToScroll: 1,
         infinite: true,
         dots: true,
