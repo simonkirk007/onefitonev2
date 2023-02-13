@@ -224,4 +224,48 @@ section.gallery {
 .title h2 {
     font-size: 30px;
 }
+  .upcome-content {
+    padding: 50px 0;
+}
+
+.upcome-content h3, .overlay-banner-con h2 {
+    font-size: 46px;
+}
+
+.overlay-banner {
+    padding: 30px 0 20px;
+}
+
+.upcome-content h3, .overlay-banner-con h2 {
+    font-size: 35px;
+}
+
+.overlay-banner-con h4 {
+    font-size: 18px;
+}
+
+.sale-banner-con h2 {
+    font-size: 45px;
+}
+
+.sale-banner-con h3 {
+    font-size: 28px;
+}
+
+.sale-banner-con {
+    padding: 50px 0 40px;
+}
+
+.content-banner-content {
+    margin-bottom: 20px;
+}
+
+.footer-block .footer-block-image p {
+    padding: 30px 0 30px;
+}
+
+.footer__copyright p {
+    text-align: center;
+    margin-bottom: 5px;
+}
 }
