@@ -345,4 +345,7 @@ section.testimonials-sec ul.slick-dots {
 .footer__copyright p {
   font-size: 11px;
 }
+.top-header .header-icons ul li a {
+  padding: 0 3px;
+}
 }
