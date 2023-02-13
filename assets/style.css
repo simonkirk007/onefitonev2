@@ -156,9 +156,9 @@ ul {
 }
 
 .main-header {
-  border: 0.25px solid #386e9140;
-  background: linear-gradient(0deg, #f0faff, #f0faff), rgba(0, 0, 0, 0.3);
-  padding: 10px 0;
+    border: 0.25px solid #f6b3c7;
+    background: linear-gradient(0deg,#f6b3c7b5,#f6b3c7b5),rgb(246 179 199 / 0%);
+    padding: 10px 0;
 }
 
 .top-header {
@@ -222,12 +222,12 @@ header.header {
   padding: 10px 0;
 }
 .donate-box .btn {
-  background: #ef5f22;
-  border: 1px solid #ef5f22;
+  background: #e83131;
+  border: 1px solid #e83131;
 }
 
 .donate-box .btn:hover {
-  color: #ef5f22;
+  color: #e83131;
   background: transparent;
 }
 .main-banner-item {
@@ -1585,4 +1585,50 @@ button.paypal {
 }
 .fancy-link:hover {
   color: #bd1802;
+}
+
+.overlay-content {
+    top: 0;
+    width: 50%;
+    background: #fff;
+    text-align: left;
+    height: 100%;
+    overflow-y: scroll;
+    transition: 0.4s all;
+    left: -380px;
+}
+
+.overlay ul li a {
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    padding: 9px 10px;
+}
+
+.overlay .closebtn {
+    width: 40px;
+    height: 40px;
+    background: #e95144;
+    color: #fff;
+    padding: 0;
+    top: 0;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 29px;
+}
+
+.overlay ul li a span {
+    font-size: 12px;
+}
+
+.overlay ul li {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.overlay.active .overlay-content {
+    left: 0;
+  
 }

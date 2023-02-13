@@ -5,8 +5,8 @@
     font-size: 16px;
 }
 header.header {
-    border: 0.25px solid #386e9140;
-    background: linear-gradient(0deg, #f0faff, #f0faff), rgba(0, 0, 0, 0.3);
+    border: 0.25px solid #f6b3c7;
+    background: linear-gradient(0deg,#f6b3c7b5,#f6b3c7b5),rgb(246 179 199 / 0%);
     padding: 10px 0;
 }
 .header-nav ul li a span {

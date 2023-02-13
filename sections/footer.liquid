@@ -31,7 +31,7 @@
         <div class="footer__blocks-wrapper"><div class="row">
           
             {%- for block in section.blocks -%}
-              <div class="footer-block{% if block.type == 'link_list' %} footer-block--menu col-12 col-lg-2{% else %} col-12 col-lg-4{% endif %}" {{ block.shopify_attributes }}>
+              <div class="footer-block{% if block.type == 'link_list' %} footer-block--menu col-12-- col-lg-2 col-6{% else %} col-12 col-lg-4{% endif %}" {{ block.shopify_attributes }}>
                 {%- if block.settings.heading != blank -%}
                   <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
                 {%- endif -%}
@@ -117,7 +117,7 @@
                       {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                       {%- endif -%}
-                      <p>Tiffany's Specialties is the brand that anyone fits. Feel confident in your outfits once you shop with us!</p>
+                      <p>Tiffany's Specialties is the brand that any Tiffany's Specialties. Feel confident in your outfits once you shop with us!</p>
                     </div>
                     {%- if section.settings.show_social -%}
                       <ul class="footer__list-social list-unstyled list-social justify-content-start" role="list">
