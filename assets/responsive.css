@@ -213,4 +213,15 @@ section.gallery {
 .main-banner-content .btn {
     margin-top: 15px;
 }
+  .cat-section {
+    padding: 40px 0;
+}
+
+.title {
+    margin: 0;
+}
+
+.title h2 {
+    font-size: 30px;
+}
 }
