@@ -1,0 +1,305 @@
+@media only screen and (min-width: 100px) and (max-width: 1200px) {
+  .service-con h3 {
+    font-size: 15px;
+}
+
+.service-con p {
+    font-size: 12px;
+}
+
+.service-img img {
+    width: 45px;
+    height: 45px;
+}
+
+.cat-section {
+    padding: 60px 0;
+}
+
+.cat-img img {
+    width: 90px;
+}
+
+.cat-con h3 {
+    font-size: 15px;
+}
+
+.upcome-content h3 {
+    font-size: 70px;
+}
+
+.overlay-banner-con h2 {
+    font-size: 70px;
+}
+
+.product-sec {
+    padding: 60px 0;
+}
+
+.testimonial-box {
+    padding:  0 10px;
+}
+
+.footer__copyright p {
+    font-size: 14px;
+}
+  .price span {
+    font-size: 15px;
+}
+}
+@media only screen and (min-width: 100px) and (max-width: 991px) {
+  .header__inline-menu {
+    display: block;
+}
+
+.header-nav ul li a span {
+    font-size: 11px;
+}
+
+.header-nav ul {
+    gap: 15px;
+}
+
+.donate-box img {
+    width: 110px;
+}
+
+.main-banner-content h2 {
+    font-size: 110px;
+}
+
+.main-banner-content {
+    padding: 120px 0 40px;
+}
+
+.service-con p {
+    padding: 0;
+    font-size: 11px;
+}
+
+.service-img img {
+    width: 40px;
+    height: 40px;
+}
+
+.service-con h3 {
+    font-size: 14px;
+}
+
+.title h2 {
+    font-size: 37px;
+}
+
+.btn-link {
+    font-size: 14px;
+}
+
+.upcome-content h3, .overlay-banner-con h2 {
+    font-size: 60px;
+}
+
+.upcome-content {
+    padding: 60px 0;
+}
+
+section.overlay-banners {
+    padding: 50px;
+}
+
+.content-banner-content h2 {
+    font-size: 56px;
+}
+
+.content-banner-content h3 {
+    font-size: 39px;
+}
+
+body p {
+    font-size: 14px;
+}
+
+.testimonial-box q {
+    font-size: 13px;
+}
+  .product-con h3 a {
+    font-size: 17px;
+}
+
+.product-sec del {
+    font-size: 13px;
+}
+
+
+.product-con .price {
+    margin-bottom: -1px;
+}
+
+
+section.overlay-banners {
+    padding: 20px 0;
+}
+
+.product-sec {
+    padding: 30px 0;
+}
+
+.title.text-center {
+    padding: 3px 2px;
+}
+
+.sale-banner-con h2 {
+    font-size: 55px;
+}
+
+.sale-banner-con h3 {
+    font-size: 34px;
+}
+
+.sale-banner-con {
+    padding: 70px 0 50px;
+}
+
+section.gallery {
+    margin-top: 0px;
+}
+  .footer-block__details-content.footer-block-image {
+    text-align: center;
+}
+
+.footer-block:last-child {
+    text-align: center;
+}
+
+.footer-block:last-child h2.footer-block__heading {
+    margin-bottom: 0;
+}
+
+.footer-block:last-child .footer-block--newsletter p {
+    text-align: center !important;
+}
+
+.footer-block:last-child .newsletter-form {
+    margin: 0 auto !important;
+    align-items: center !important;
+}
+}
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+  .botton-header {
+    display: none;
+}
+  .donate-box .btn {
+    padding: 4px 9px;
+    font-size: 11px;
+}
+
+.donate-box img {
+    width: 96px;
+}
+
+.header__heading-logo {
+    max-width: 150px;
+}
+  .header-menu-btn a i {
+    font-size: 25px;
+}
+  .main-banner-content h2 {
+    font-size: 90px;
+}
+
+.main-banner-content {
+    padding: 110px 0 40px;
+}
+
+.main-banner-content .btn {
+    margin-top: 15px;
+}
+  .cat-section {
+    padding: 40px 0;
+}
+
+.title {
+    margin: 0;
+}
+
+.title h2 {
+    font-size: 30px;
+}
+  .upcome-content {
+    padding: 50px 0;
+}
+
+.upcome-content h3, .overlay-banner-con h2 {
+    font-size: 46px;
+}
+
+.overlay-banner {
+    padding: 30px 0 20px;
+}
+
+.upcome-content h3, .overlay-banner-con h2 {
+    font-size: 35px;
+}
+
+.overlay-banner-con h4 {
+    font-size: 18px;
+}
+
+.sale-banner-con h2 {
+    font-size: 45px;
+}
+
+.sale-banner-con h3 {
+    font-size: 28px;
+}
+
+.sale-banner-con {
+    padding: 50px 0 40px;
+}
+
+.content-banner-content {
+    margin-bottom: 20px;
+}
+
+.footer-block .footer-block-image p {
+    padding: 30px 0 30px;
+}
+
+.footer__copyright p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+  section.testimonials-sec {
+    padding-bottom: 40px;
+}
+
+section.testimonials-sec ul.slick-dots {
+    bottom: -20px;
+}
+  .slick-next {
+    right: 0;
+}
+
+.slick-prev {
+    left: 0;
+}
+}
+@media only screen and (min-width: 100px) and (max-width: 576px) {
+  .donate-box img {
+    margin-right: 6px;
+    width: 70px;
+}
+
+.donate-box .btn {
+    font-size: 9px;
+    padding: 4px 6px;
+}
+
+.header__heading-logo {
+    max-width: 110px !important;
+}
+
+.main-banner-content h2 {
+    font-size: 55px;
+}
+
+}
