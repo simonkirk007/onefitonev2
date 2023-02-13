@@ -288,6 +288,9 @@ section.testimonials-sec ul.slick-dots {
 .content-boxes-con {
   margin: 20px 0;
 }
+.donate-con {
+  margin-top: 30px;
+}
 }
 @media only screen and (min-width: 100px) and (max-width: 576px) {
   .donate-box img {
@@ -383,6 +386,18 @@ section.testimonials-sec ul.slick-dots {
 
 .contact-item h6 a {
   font-size: 13px;
+}
+.donate-con {
+  margin-top: 30px;
+}
+
+.donate-ammount button {
+  font-size: 13px;
+  flex: 0 0 22%;
+}
+
+.donate-ammount {
+  gap: 10px;
 }
 }
 
