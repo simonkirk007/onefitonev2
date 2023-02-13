@@ -202,4 +202,15 @@ section.gallery {
   .header-menu-btn a i {
     font-size: 25px;
 }
+  .main-banner-content h2 {
+    font-size: 90px;
+}
+
+.main-banner-content {
+    padding: 110px 0 40px;
+}
+
+.main-banner-content .btn {
+    margin-top: 15px;
+}
 }
