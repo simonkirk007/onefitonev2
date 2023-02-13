@@ -368,3 +368,13 @@ section.testimonials-sec ul.slick-dots {
   overflow: hidden;
 }
 }
+
+@media only screen and (min-width: 100px) and (max-width: 345px) {
+  .overlay-content {
+    width: 75%;
+}
+
+.overlay .closebtn {
+    left: 75%;
+}
+}
