@@ -187,4 +187,16 @@ section.gallery {
   .botton-header {
     display: none;
 }
+  .donate-box .btn {
+    padding: 4px 9px;
+    font-size: 11px;
+}
+
+.donate-box img {
+    width: 96px;
+}
+
+.header__heading-logo {
+    max-width: 150px;
+}
 }
