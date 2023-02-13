@@ -410,7 +410,7 @@
         {%- endif -%}
         {%- if section.settings.logo_position != 'middle-center' -%}
           {%- if request.page_type == 'index' -%}
-         <div class="col-md-4 col-3">
+         <div class="col-md-4 col-4">
            
             <h1 class="header__heading text-center index-page">
           {%- endif -%}
@@ -439,7 +439,7 @@
         {%- if section.settings.menu != blank -%}
           {%- if section.settings.menu_type_desktop == 'dropdown' -%}
           
-            <div class="col-md-4 col-3">
+            <div class="col-md-4 col-4">
               <nav class="header__inline-menu header-nav">
                 <ul class="list-menu list-menu--inline" role="list">
                   {%- for link in section.settings.menu.links -%}
@@ -491,7 +491,7 @@
               </nav>
             </div>
           {%- else -%}
-            <div class="col-md-4 col-3">
+            <div class="col-md-4 col-4">
               <nav class="header__inline-menu header-nav">
                 <ul class="list-menu list-menu--inline" role="list">
                   {%- for link in section.settings.menu.links -%}
@@ -541,10 +541,10 @@
         {%- endif -%}
         {%- if section.settings.logo_position == 'middle-center' -%}
           {%- if request.page_type == 'index' -%}
-            <div class="col-md-4 col-3">
+            <div class="col-md-4 col-4">
               <h1 class="header__heading text-center inner-index-page">
                         {%- endif -%}
-            <div class="col-md-4 col-3 text-center">
+            <div class="col-md-4 col-4 text-center">
           
                 <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
                   {%- if section.settings.logo != blank -%}
@@ -568,7 +568,7 @@
             </div>
           {%- endif -%}
         {%- endif -%}
-        <div class="col-md-4 col-3">
+        <div class="col-md-4 col-4">
           <div class="donate-box">
               <img src="https://cdn.shopify.com/s/files/1/0676/8466/3606/files/national-kidney-foundation-inc-logo-vector-removebg-preview_e07f08e0-4347-4443-a9bc-0e252483c2a8.png?v=1676059928" alt="">
               <a href="/pages/donate" class="btn">Donate</a>
