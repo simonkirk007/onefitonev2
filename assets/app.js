@@ -33,7 +33,7 @@ $(".prod-slider").slick({
         slidesToShow: 5,
         slidesToScroll: 1,
         infinite: true,
-        dots: true,
+        dots: false,
       },
     },
     {
@@ -71,7 +71,7 @@ $(".testimonial-slider").slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
-        dots: true,
+        dots: false,
       },
     },
     {
