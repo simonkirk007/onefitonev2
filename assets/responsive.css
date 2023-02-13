@@ -121,4 +121,45 @@ body p {
 .testimonial-box q {
     font-size: 13px;
 }
+  .product-con h3 a {
+    font-size: 17px;
+}
+
+.product-sec del {
+    font-size: 13px;
+}
+
+
+.product-con .price {
+    margin-bottom: -1px;
+}
+
+
+section.overlay-banners {
+    padding: 20px 0;
+}
+
+.product-sec {
+    padding: 30px 0;
+}
+
+.title.text-center {
+    padding: 3px 2px;
+}
+
+.sale-banner-con h2 {
+    font-size: 55px;
+}
+
+.sale-banner-con h3 {
+    font-size: 34px;
+}
+
+.sale-banner-con {
+    padding: 70px 0 50px;
+}
+
+section.gallery {
+    margin-top: 0px;
+}
 }
