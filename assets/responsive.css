@@ -373,6 +373,17 @@ section.testimonials-sec ul.slick-dots {
 .top-header {
   overflow: hidden;
 }
+.contact-form h5 {
+  font-size: 15px;
+}
+
+.contact-form input {
+  height: 46px;
+}
+
+.contact-item h6 a {
+  font-size: 13px;
+}
 }
 
 @media only screen and (min-width: 100px) and (max-width: 345px) {
