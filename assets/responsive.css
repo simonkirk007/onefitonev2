@@ -436,4 +436,7 @@ section.testimonials-sec ul.slick-dots {
 .overlay .closebtn {
     left: 75%;
 }
+.donate-box img{
+  display: none;
+}
 }
