@@ -43,4 +43,7 @@
 .footer__copyright p {
     font-size: 14px;
 }
+  .price span {
+    font-size: 15px;
+}
 }
