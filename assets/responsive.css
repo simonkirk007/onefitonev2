@@ -47,3 +47,78 @@
     font-size: 15px;
 }
 }
+@media only screen and (min-width: 100px) and (max-width: 991px) {
+  .header__inline-menu {
+    display: block;
+}
+
+.header-nav ul li a span {
+    font-size: 11px;
+}
+
+.header-nav ul {
+    gap: 15px;
+}
+
+.donate-box img {
+    width: 110px;
+}
+
+.main-banner-content h2 {
+    font-size: 110px;
+}
+
+.main-banner-content {
+    padding: 120px 0 40px;
+}
+
+.service-con p {
+    padding: 0;
+    font-size: 11px;
+}
+
+.service-img img {
+    width: 40px;
+    height: 40px;
+}
+
+.service-con h3 {
+    font-size: 14px;
+}
+
+.title h2 {
+    font-size: 37px;
+}
+
+.btn-link {
+    font-size: 14px;
+}
+
+.upcome-content h3, .overlay-banner-con h2 {
+    font-size: 60px;
+}
+
+.upcome-content {
+    padding: 60px 0;
+}
+
+section.overlay-banners {
+    padding: 50px;
+}
+
+.content-banner-content h2 {
+    font-size: 56px;
+}
+
+.content-banner-content h3 {
+    font-size: 39px;
+}
+
+body p {
+    font-size: 14px;
+}
+
+.testimonial-box q {
+    font-size: 13px;
+}
+}
