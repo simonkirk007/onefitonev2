@@ -182,6 +182,9 @@ section.gallery {
     margin: 0 auto !important;
     align-items: center !important;
 }
+.contact-img {
+  display: none;
+}
 }
 @media only screen and (min-width: 100px) and (max-width: 768px) {
   .botton-header {
