@@ -162,4 +162,24 @@ section.overlay-banners {
 section.gallery {
     margin-top: 0px;
 }
+  .footer-block__details-content.footer-block-image {
+    text-align: center;
+}
+
+.footer-block:last-child {
+    text-align: center;
+}
+
+.footer-block:last-child h2.footer-block__heading {
+    margin-bottom: 0;
+}
+
+.footer-block:last-child .footer-block--newsletter p {
+    text-align: center !important;
+}
+
+.footer-block:last-child .newsletter-form {
+    margin: 0 auto !important;
+    align-items: center !important;
+}
 }
