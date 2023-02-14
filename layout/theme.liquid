@@ -450,7 +450,7 @@
   </head>
 
   <body id="{{ page_title | handleize }}" class={{ template }}{% if template == "product" %} {{ product.handle }}{% endif %}{% if template == "collection" %} {{ collection.handle }}{% endif %}">
-    <a class="skip-to-content-link button visually-hidden" href="#MainContent">
+    <a href="#MainContent" class="skip-to-content-link button visually-hidden">
       {{ "accessibility.skip_to_text" | t }}
     </a>
 
