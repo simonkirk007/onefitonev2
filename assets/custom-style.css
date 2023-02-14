@@ -366,3 +366,11 @@ button.quantity__button {
 .contact-sec h6 a {
   font-size: 15px;
 }
+.botton-header .header-nav ul li svg {
+    width: 10px;
+    margin-left: 5px;
+}
+
+.botton-header .header-nav ul li {
+    display: flex;
+}
