@@ -341,7 +341,7 @@ button.quantity__button {
 }
 .sold-out::after {
     content: '';
-    background-image: url('https://cdn.shopify.com/s/files/1/0676/8466/3606/files/badge.png?v=1676364868');
+    background-image: url('https://cdn.shopify.com/s/files/1/0676/8466/3606/files/sold-out-white.png?v=1676369925');
     width: 80px !important;
     height: 80px !important;
     display: inline-block;
