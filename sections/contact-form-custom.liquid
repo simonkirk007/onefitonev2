@@ -108,24 +108,30 @@
                             
                                 </div>
                                 <div class="row">
+                                  {% if section.settings.phone %}
                                   <div class="col-4">
                                       <div class="contact-item text-center">
                                           <i class="fas fa-phone-alt"></i>
                                           <h6><a href="tel:+012345789">{{ section.settings.phone | escape }}</a></h6>
                                       </div>
                                   </div>
+                                  {% endif %}
+                                  {% if section.settings.email %}
                                   <div class="col-4">
                                       <div class="contact-item text-center">
                                           <i class="fas fa-envelope"></i>
                                           <h6><a href="mailto:demo@mail.com">{{ section.settings.email | escape }}</a></h6>
                                       </div>
                                   </div>
+                                  {% endif %}
+                                  {% if section.settings.address %}
                                   <div class="col-4">
                                       <div class="contact-item text-center">
                                           <i class="fas fa-map-marker-alt"></i>
                                           <h6><a href="tel:098765443">{{ section.settings.address | escape }}</a></h6>
                                       </div>
                                   </div>
+                                  {% endif %}
                               </div>
                                 </div>
                             
