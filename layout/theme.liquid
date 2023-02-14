@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
-  <head>{% render 'pagefly-head' %}
+  <head>
+    {% render 'pagefly-head' %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -9,30 +10,36 @@
     <link
       rel="preconnect"
       href="https://cdn.shopify.com"
-      crossorigin>
+      crossorigin
+    >
 
     {%- if settings.favicon != blank -%}
       <link
         rel="icon"
         type="image/png"
-        href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
+        href="{{ settings.favicon | image_url: width: 32, height: 32 }}"
+      >
     {%- endif -%}
 
     {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
       <link
         rel="preconnect"
         href="https://fonts.shopifycdn.com"
-        crossorigin>
+        crossorigin
+      >
     {%- endunless -%}
 
     <title>
       {{ page_title }}
       {%- if current_tags %}
-        &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
+        &ndash; tagged "{{ current_tags | join: ', ' }}"
+      {%- endif -%}
       {%- if current_page != 1 %}
-        &ndash; Page {{ current_page }}{% endif -%}
+        &ndash; Page {{ current_page -}}
+      {%- endif -%}
       {%- unless page_title contains shop.name %}
-        &ndash; {{ shop.name }}{% endunless -%}
+        &ndash; {{ shop.name -}}
+      {%- endunless -%}
     </title>
 
     {% if page_description %}
@@ -361,27 +368,32 @@
       }
     {% endstyle %}
     <link
-      rel='stylesheet'
-      id='font-awesome-css'
+      rel="stylesheet"
+      id="font-awesome-css"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css?ver=6.1"
       type="text/css"
-      media='all' />
+      media="all"
+    >
     {{ 'animate.css.css' | asset_url | stylesheet_tag }}
-<!--     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous">
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    {{ 'hover-min.css' | asset_url | stylesheet_tag }}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" /> -->
+    <!--
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous">
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+      {{ 'hover-min.css' | asset_url | stylesheet_tag }}
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    -->
     {{ 'base.css' | asset_url | stylesheet_tag }}
-    {% comment %}{{ 'style.css' | asset_url | stylesheet_tag }}
-    {{ 'custom-style.css' | asset_url | stylesheet_tag }}
-    {{ 'responsive.css' | asset_url | stylesheet_tag }} {% endcomment %}  
+    {% comment %}
+      {{ 'style.css' | asset_url | stylesheet_tag }}
+      {{ 'custom-style.css' | asset_url | stylesheet_tag }}
+      {{ 'responsive.css' | asset_url | stylesheet_tag }}
+    {% endcomment %}
 
     {%- unless settings.type_body_font.system? -%}
       <link
@@ -389,7 +401,8 @@
         as="font"
         href="{{ settings.type_body_font | font_url }}"
         type="font/woff2"
-        crossorigin>
+        crossorigin
+      >
     {%- endunless -%}
     {%- unless settings.type_header_font.system? -%}
       <link
@@ -397,7 +410,8 @@
         as="font"
         href="{{ settings.type_header_font | font_url }}"
         type="font/woff2"
-        crossorigin>
+        crossorigin
+      >
     {%- endunless -%}
 
     {%- if settings.predictive_search_enabled -%}
@@ -405,7 +419,8 @@
         rel="stylesheet"
         href="{{ 'component-predictive-search.css' | asset_url }}"
         media="print"
-        onload="this.media='all'">
+        onload="this.media='all'"
+      >
     {%- endif -%}
 
     <script>
@@ -416,9 +431,12 @@
     </script>
   </head>
 
-  <body id="{{ page_title | handleize }}" class={{ template }}{% if template == "product" %} {{ product.handle }}{% endif %}{% if template == "collection" %} {{ collection.handle }}{% endif %}">
+  <body
+    id="{{ page_title | handleize }}"
+    class="{{ template }}{% if template == "product" %} {{ product.handle }}{% endif %}{% if template == "collection" %} {{ collection.handle }}{% endif %}"
+  >
     <a href="#MainContent" class="skip-to-content-link button visually-hidden">
-      {{ "accessibility.skip_to_text" | t }}
+      {{ 'accessibility.skip_to_text' | t }}
     </a>
 
     {%- if settings.cart_type == 'drawer' -%}
@@ -431,7 +449,8 @@
       id="MainContent"
       class="content-for-layout focus-none"
       role="main"
-      tabindex="-1">
+      tabindex="-1"
+    >
       {{ content_for_layout }}
     </main>
 
@@ -443,6 +462,7 @@
     </ul>
 
     <script>
+      
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
@@ -469,16 +489,19 @@
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`
       }
+
     </script>
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-<!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <script src="{{ 'wow.min.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'app.js' | asset_url }}" defer="defer"></script> -->
+    <!--
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+      <script src="{{ 'wow.min.js' | asset_url }}" defer="defer"></script>
+      <script src="{{ 'app.js' | asset_url }}" defer="defer"></script>
+    -->
   </body>
 </html>
