@@ -374,3 +374,11 @@ button.quantity__button {
 .botton-header .header-nav ul li {
     display: flex;
 }
+
+.botton-header .header__submenu.list-menu {top: 100%;min-width: 200px !important;width: 200px;padding: 9px 0;opacity: 0;transform: translateY(-6px);display: none;}
+
+.botton-header .header-nav ul li:hover .header__submenu.list-menu {
+    opacity: 1;
+    transform: translateY(0px);
+    display: block;
+}
