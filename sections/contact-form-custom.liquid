@@ -120,7 +120,7 @@
                                   <div class="col-4">
                                       <div class="contact-item text-center">
                                           <i class="fas fa-envelope"></i>
-                                          <h6><a href="mailto:demo@mail.com">{{ section.settings.email | escape }}</a></h6>
+                                          <h6><a href="mailto:{{ section.settings.email | escape }}">{{ section.settings.email | escape }}</a></h6>
                                       </div>
                                   </div>
                                   {% endif %}
@@ -128,7 +128,7 @@
                                   <div class="col-4">
                                       <div class="contact-item text-center">
                                           <i class="fas fa-map-marker-alt"></i>
-                                          <h6><a href="tel:098765443">{{ section.settings.address | escape }}</a></h6>
+                                          <h6><a href="tel:{{ section.settings.address | escape }}">{{ section.settings.address | escape }}</a></h6>
                                       </div>
                                   </div>
                                   {% endif %}
