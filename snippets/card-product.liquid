@@ -131,13 +131,27 @@
                 {{- 'products.product.on_sale' | t -}}
               </span>
             {%- endif -%}
+
             {% if product.variants.size == 1 %}
+              {% assign variant = product.variants.first %}
               {% if variant.available %}
                 <p>{{ variant.title }} is in stock</p>
               {% else %}
                 <p>{{ variant.title }} is out of stock</p>
               {% endif %}
-            {%- endif -%}
+            {% elsif product.variants.size == 0 %}
+              <p>This product has no variants</p>
+            {% else %}
+              <ul>
+                {% for variant in product.variants %}
+                  {% if variant.available %}
+                    <li>{{ variant.title }} is in stock</li>
+                  {% else %}
+                    <li>{{ variant.title }} is out of stock</li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            {% endif %}
           </div>
         </div>
       </div>
