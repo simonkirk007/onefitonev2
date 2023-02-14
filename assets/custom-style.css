@@ -339,3 +339,27 @@ button.quantity__button {
 .cat-box:hover img {
   transform: scale(1);
 }
+.sold-out::after {
+    content: '';
+    background-image: url('https://cdn.shopify.com/s/files/1/0676/8466/3606/files/badge.png?v=1676364868');
+    width: 80px !important;
+    height: 80px !important;
+    display: inline-block;
+    /* position: absolute; */
+    z-index: 9;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.sold-out {
+    background: unset;
+    font-size: 0;
+    border: unset;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-13deg);
+}
