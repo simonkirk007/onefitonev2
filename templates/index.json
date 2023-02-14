@@ -103,7 +103,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/cat-img-1_28b58606-f616-485c-8013-e8aa3fd2c003.png",
             "title": "Woman Dresses",
-            "button_link": "shopify:\/\/collections\/women-dresses"
+            "button_link": "shopify:\/\/collections\/woman-dresses"
           }
         },
         "0af8cdbf-a979-4df9-8b96-ebb665bed6b3": {
@@ -180,7 +180,7 @@
       "settings": {
         "title": "NEW & STYLISH LOOKS",
         "button_text": "Shop Now",
-        "button_link": "shopify:\/\/collections\/women-dresses",
+        "button_link": "shopify:\/\/collections\/woman-dresses",
         "image_left": "shopify:\/\/shop_images\/new-look-image-1_ba59caad-4766-414e-8522-bd6191ba5f06.png",
         "image_right": "shopify:\/\/shop_images\/new-look-image-2_0a751b43-0564-41d9-950a-26c4136f0653.png",
         "color_title": "#ffe901"
