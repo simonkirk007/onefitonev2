@@ -182,7 +182,8 @@
         "button_text": "Shop Now",
         "button_link": "shopify:\/\/collections\/women-dresses",
         "image_left": "shopify:\/\/shop_images\/new-look-image-1_ba59caad-4766-414e-8522-bd6191ba5f06.png",
-        "image_right": "shopify:\/\/shop_images\/new-look-image-2_0a751b43-0564-41d9-950a-26c4136f0653.png"
+        "image_right": "shopify:\/\/shop_images\/new-look-image-2_0a751b43-0564-41d9-950a-26c4136f0653.png",
+        "color_title": "#ffe901"
       }
     },
     "cf5174d5-f7e3-4f0a-a584-0fad819811d9": {
