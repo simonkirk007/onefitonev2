@@ -131,6 +131,9 @@
                 {{- 'products.product.on_sale' | t -}}
               </span>
             {%- endif -%}
+            {%- if card_product.variants == false -%}
+              <span class="abc">asdfasdf</span>
+            {%- endif -%}
           </div>
         </div>
       </div>
