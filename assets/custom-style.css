@@ -330,3 +330,6 @@ button.quantity__button {
 .facets-vertical-form{
   margin-bottom: 30px;
 }
+.cat-box:hover {
+  transform: scale(1.12);
+}
