@@ -111,7 +111,7 @@
                 class="full-unstyled-link"
                 aria-labelledby="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
               >
-                {{ card_product.title }}
+                {{ card_product.title | escape | remove: '' }}
               </a>
             </h3>
           </div>
@@ -126,7 +126,7 @@
             {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
               <span
                 id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
-                class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
+                class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }} abc"
               >
                 {{- 'products.product.on_sale' | t -}}
               </span>
