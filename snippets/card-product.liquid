@@ -135,12 +135,12 @@
             {% if card_product.variants.size == 1 %}
               {% assign variant = card_product.variants.first %}
               {% if variant.available %}
-                <p>{{ variant.title }} is in stock</p>
+                <!-- <p>{{ variant.title }} is in stock</p> -->
               {% else %}
                 <p>{{ variant.title }} is out of stock</p>
               {% endif %}
             {% elsif card_product.variants.size == 0 %}
-              <p>This card_product has no variants</p>
+              <!-- <p>This card_product has no variants</p> -->
             {% else %}
               <ul>
                 {% for variant in card_product.variants %}
