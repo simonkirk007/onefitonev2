@@ -363,3 +363,6 @@ button.quantity__button {
     left: 0;
     transform: rotate(-13deg);
 }
+.contact-sec h6 a {
+  font-size: 15px;
+}
