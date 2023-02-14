@@ -132,18 +132,18 @@
               </span>
             {%- endif -%}
 
-            {% if product.variants.size == 1 %}
-              {% assign variant = product.variants.first %}
+            {% if card_product.variants.size == 1 %}
+              {% assign variant = card_product.variants.first %}
               {% if variant.available %}
                 <p>{{ variant.title }} is in stock</p>
               {% else %}
                 <p>{{ variant.title }} is out of stock</p>
               {% endif %}
-            {% elsif product.variants.size == 0 %}
-              <p>This product has no variants</p>
+            {% elsif card_product.variants.size == 0 %}
+              <p>This card_product has no variants</p>
             {% else %}
               <ul>
-                {% for variant in product.variants %}
+                {% for variant in card_product.variants %}
                   {% if variant.available %}
                     <li>{{ variant.title }} is in stock</li>
                   {% else %}
