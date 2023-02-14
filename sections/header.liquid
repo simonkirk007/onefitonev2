@@ -123,7 +123,7 @@
   </symbol>
 </svg>
 
-
+<{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
 <header>
   <div class="top-header">
   <div class="container">
