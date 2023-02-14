@@ -375,25 +375,26 @@
       media="all"
     >
     {{ 'animate.css.css' | asset_url | stylesheet_tag }}
-    <!--
-      <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-        crossorigin="anonymous">
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-      {{ 'hover-min.css' | asset_url | stylesheet_tag }}
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    >
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    >
+    {{ 'hover-min.css' | asset_url | stylesheet_tag }}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
     {{ 'base.css' | asset_url | stylesheet_tag }}
-    {% comment %}
-      {{ 'style.css' | asset_url | stylesheet_tag }}
-      {{ 'custom-style.css' | asset_url | stylesheet_tag }}
-      {{ 'responsive.css' | asset_url | stylesheet_tag }}
-    {% endcomment %}
+
+    {{ 'style.css' | asset_url | stylesheet_tag }}
+    {{ 'custom-style.css' | asset_url | stylesheet_tag }}
+    {{ 'responsive.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       <link
@@ -463,6 +464,7 @@
 
     <script>
       
+      
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
@@ -490,18 +492,17 @@
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`
       }
 
+
     </script>
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-    <!--
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-      <script src="{{ 'wow.min.js' | asset_url }}" defer="defer"></script>
-      <script src="{{ 'app.js' | asset_url }}" defer="defer"></script>
-    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="{{ 'wow.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'app.js' | asset_url }}" defer="defer"></script>
   </body>
 </html>
