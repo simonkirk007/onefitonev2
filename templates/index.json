@@ -261,6 +261,7 @@
     },
     "8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb": {
       "type": "reviews-custom",
+      "disabled": true,
       "blocks": {
         "template--17908858192192__8738cfd3-1ce4-4d3c-a4cd-d5b83e4368cb-167575833713e1c8c7-0": {
           "type": "column",
