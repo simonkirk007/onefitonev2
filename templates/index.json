@@ -203,7 +203,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/overlay-banner-1.png",
             "title": "LAST CHANCE",
-            "content": "2 for $15",
+            "content": "",
             "button_text": "Shop Now",
             "button_link": "shopify:\/\/collections\/all"
           }
