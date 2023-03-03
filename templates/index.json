@@ -213,7 +213,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/overlay-banner-2_1550ac26-a3c4-4c8b-90c4-5394f35413bd.png",
             "title": "LAST CHANCE",
-            "content": "70% off",
+            "content": "",
             "button_text": "Shop NoW",
             "button_link": "shopify:\/\/collections\/all"
           }
