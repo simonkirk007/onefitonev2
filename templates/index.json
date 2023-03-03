@@ -202,7 +202,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/overlay-banner-1.png",
-            "title": "LAST CHANCE",
+            "title": "",
             "content": "",
             "button_text": "Shop Now",
             "button_link": "shopify:\/\/collections\/all"
@@ -212,7 +212,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/overlay-banner-2_1550ac26-a3c4-4c8b-90c4-5394f35413bd.png",
-            "title": "LAST CHANCE",
+            "title": "",
             "content": "",
             "button_text": "Shop NoW",
             "button_link": "shopify:\/\/collections\/all"
