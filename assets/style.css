@@ -511,7 +511,10 @@ section.overlay-banners {
   background-position: center;
   text-align: center;
   position: relative;
-  padding: 50px 0 30px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .overlay-banner:before {
