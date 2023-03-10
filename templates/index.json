@@ -134,7 +134,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/close-up-tie-isolated-premium-psd_565145-13-removebg-preview.png",
-            "title": "Active Wear",
+            "title": "",
             "button_link": "shopify:\/\/collections\/activewear"
           }
         },
