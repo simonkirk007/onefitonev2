@@ -62,7 +62,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/cat-img-4_45020e19-8734-4ab5-a578-49e174f3fd4e.png",
-            "title": "Men Clothes",
+            "title": "Clothes",
             "button_link": "shopify:\/\/collections\/men-clothes"
           }
         },
@@ -102,7 +102,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/cat-img-1_28b58606-f616-485c-8013-e8aa3fd2c003.png",
-            "title": "Woman Dresses",
+            "title": "Dresses",
             "button_link": "shopify:\/\/collections\/woman-dresses"
           }
         },
