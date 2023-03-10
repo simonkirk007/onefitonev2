@@ -94,7 +94,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/cat-img-5_700781bc-5b3e-42ce-b225-e2d12736b8d5.png",
-            "title": "Women Bag",
+            "title": "Bag",
             "button_link": "shopify:\/\/collections\/women-coachs"
           }
         },
@@ -118,7 +118,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/accessory-fashion-shopping-woman-purse_1203-6480-removebg-preview.png",
-            "title": "Women Wallet",
+            "title": "Wallet",
             "button_link": "shopify:\/\/collections\/wallet"
           }
         },
@@ -142,7 +142,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/purse_1284-658-removebg-preview.png",
-            "title": "Men's Wallet",
+            "title": "Wallet",
             "button_link": "shopify:\/\/collections\/mens-wallet"
           }
         },
