@@ -1641,3 +1641,12 @@ button.paypal {
 .side-bar-custom ul {
   display: block;
 }
+
+@media (max-width:425px)
+{
+  .header__menu-item span
+  {
+    font-size: 12px;
+    font-weight: 800;
+  }
+}
