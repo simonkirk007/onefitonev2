@@ -86,7 +86,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/mans-suit-realistic-composition-with-smart-costume-with-white-shirt-tie-jacket_1284-54345-removebg-preview.png",
-            "title": "Mens Suit",
+            "title": "Suit",
             "button_link": "shopify:\/\/collections\/men-suit"
           }
         },
@@ -110,7 +110,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/26317-removebg-preview.png",
-            "title": "Women",
+            "title": "Clothes",
             "button_link": "shopify:\/\/collections\/women-clothes"
           }
         },
