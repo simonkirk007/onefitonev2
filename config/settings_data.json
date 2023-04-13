@@ -186,6 +186,7 @@
           },
           "footer-2": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "heading": "NEWSLETTER",
               "subtext": ""
