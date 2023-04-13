@@ -108,6 +108,7 @@
         },
         "0af8cdbf-a979-4df9-8b96-ebb665bed6b3": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/burberry-cotton-logo-graphic-shirt-dress_17050808_34536989_1000-removebg-preview.png",
             "title": "Clothes",
@@ -140,6 +141,7 @@
         },
         "23660971-0a18-4625-9cbd-084b8fb55bb5": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/113517.970-removebg-preview.png",
             "title": "Wallet",
