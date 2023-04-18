@@ -202,6 +202,7 @@
       "blocks": {
         "template--17908858192192__34fd40d4-1d69-4e8c-a926-efbf7637219d-16757565239112cb59-0": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/overlay-banner-1.png",
             "title": "",
