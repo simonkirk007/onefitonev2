@@ -26,6 +26,10 @@ body p{
 .footer-block.footer-block--menu.col-12--.col-lg-4 {
     padding-left: 9%;
 }
+.col-sm-6 .overlay-banner
+{
+  width: 100%;
+}
 /* General Styling */
 * {
   padding: 0;
